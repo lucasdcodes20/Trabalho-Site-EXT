@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Digital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <h1><i class="fas fa-shield-alt"></i> Segurança Digital</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#importancia">Importância</a></li>
+                    <li><a href="#conceitos">Conceitos</a></li>
+                    <li><a href="#ameacas">Ameaças</a></li>
+                    <li><a href="#boas-praticas">Boas Práticas</a></li>
+                    <li><a href="#ferramentas">Ferramentas</a></li>
+                    <li><a href="#conclusao">Conclusão</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Introdução -->
+        <section id="introducao">
+            <h2><i class="fas fa-lock"></i> Introdução à Segurança Digital</h2>
+            <p>
+                A <strong>segurança digital</strong> é um conjunto de práticas, tecnologias e processos 
+                projetados para proteger sistemas, redes, dispositivos e dados contra acessos não 
+                autorizados, ataques cibernéticos, danos ou roubo.
+            </p>
+            <p>
+                Com a transformação digital e o aumento da dependência de tecnologias, a segurança 
+                digital tornou-se essencial para indivíduos, empresas e governos. Ela abrange desde 
+                a proteção de informações pessoais até a segurança de infraestruturas críticas.
+            </p>
+            <div class="info-box">
+                <h3><i class="fas fa-info-circle"></i> Dado Importante</h3>
+                <p>Segundo relatórios de segurança, um ataque cibernético ocorre a cada 39 segundos em média, 
+                afetando um em cada três americanos anualmente.</p>
+            </div>
+        </section>
+
+        <!-- Importância -->
+        <section id="importancia">
+            <h2><i class="fas fa-exclamation-triangle"></i> Por que a Segurança Digital é Importante?</h2>
+            <p>A segurança digital é crucial por vários motivos:</p>
+            
+            <div class="importance-grid">
+                <div class="importance-item">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Proteção de Dados Pessoais</h3>
+                    <p>Protege informações sensíveis como dados bancários, documentos e históricos médicos.</p>
+                </div>
+                
+                <div class="importance-item">
+                    <i class="fas fa-building"></i>
+                    <h3>Segurança Corporativa</h3>
+                    <p>Empresas dependem da segurança digital para proteger segredos comerciais e dados de clientes.</p>
+                </div>
+                
+                <div class="importance-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Infraestrutura Nacional</h3>
+                    <p>Protege sistemas críticos como energia, transporte e serviços financeiros.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conceitos -->
+        <section id="conceitos">
+            <h2><i class="fas fa-shield-alt"></i> Conceitos Fundamentais</h2>
+            <p>Os pilares da segurança digital são conhecidos como a tríade CIA:</p>
+            
+            <div class="concepts-grid">
+                <div class="concept-card">
+                    <i class="fas fa-eye-slash"></i>
+                    <h3>Confidencialidade</h3>
+                    <p>Garantia de que informações só serão acessadas por pessoas autorizadas. 
+                    Exemplos: criptografia, controles de acesso.</p>
+                </div>
+                
+                <div class="concept-card">
+                    <i class="fas fa-check-double"></i>
+                    <h3>Integridade</h3>
+                    <p>Assegura que os dados não sejam alterados indevidamente durante armazenamento 
+                    ou transmissão. Exemplos: hashes, assinaturas digitais.</p>
+                </div>
+                
+                <div class="concept-card">
+                    <i class="fas fa-plug"></i>
+                    <h3>Disponibilidade</h3>
+                    <p>Garante que sistemas e informações estejam acessíveis quando necessários. 
+                    Exemplos: backups, redundância, proteção contra DDoS.</p>
+                </div>
+            </div>
+            
+            <p>Além da tríade CIA, outros conceitos importantes incluem:</p>
+            <ul>
+                <li><strong>Autenticação:</strong> Verificação da identidade do usuário</li>
+                <li><strong>Autorização:</strong> Definição de permissões de acesso</li>
+                <li><strong>Não-repúdio:</strong> Garantia de que uma ação não pode ser negada</li>
+                <li><strong>Auditoria:</strong> Rastreamento de atividades no sistema</li>
+            </ul>
+        </section>
+
+        <!-- Ameaças -->
+        <section id="ameacas">
+            <h2><i class="fas fa-bug"></i> Principais Ameaças Digitais</h2>
+            <p>Conhecer as ameaças é o primeiro passo para se proteger:</p>
+            
+            <div class="threats-list">
+                <div class="threat-item">
+                    <h3><i class="fas fa-virus"></i> Malware</h3>
+                    <p>Software malicioso que inclui vírus, worms, trojans e ransomware. Podem roubar dados, 
+                    danificar sistemas ou sequestrar informações.</p>
+                </div>
+                
+                <div class="threat-item">
+                    <h3><i class="fas fa-fishing-rod"></i> Phishing</h3>
+                    <p>Tentativas de enganar usuários para obter informações sensíveis através de 
+                    mensagens falsas que se passam por fontes confiáveis.</p>
+                </div>
+                
+                <div class="threat-item">
+                    <h3><i class="fas fa-user-secret"></i> Ataques de Engenharia Social</h3>
+                    <p>Manipulação psicológica para que pessoas divulguem informações confidenciais 
+                    ou realizem ações que comprometam a segurança.</p>
+                </div>
+                
+                <div class="threat-item">
+                    <h3><i class="fas fa-network-wired"></i> Ataques DDoS</h3>
+                    <p>Ataques de Negação de Serviço que sobrecarregam sistemas para torná-los 
+                    indisponíveis para usuários legítimos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boas Práticas -->
+        <section id="boas-praticas">
+            <h2><i class="fas fa-check-circle"></i> Boas Práticas de Segurança</h2>
+            <p>Medidas essenciais para proteger sua vida digital:</p>
+            
+            <ol class="best-practices">
+                <li>
+                    <strong>Senhas Fortes</strong>
+                    <p>Use senhas complexas com letras maiúsculas, minúsculas, números e símbolos. 
+                    Não reutilize senhas entre diferentes serviços.</p>
+                </li>
+                
+                <li>
+                    <strong>Autenticação de Dois Fatores (2FA)</strong>
+                    <p>Ative sempre que possível. Adiciona uma camada extra de segurança além da senha.</p>
+                </li>
+                
+                <li>
+                    <strong>Atualizações Regulares</strong>
+                    <p>Mantenhe sistemas operacionais e aplicativos atualizados para corrigir vulnerabilidades conhecidas.</p>
+                </li>
+                
+                <li>
+                    <strong>Backups</strong>
+                    <p>Faça cópias regulares de dados importantes em locais seguros e separados do sistema principal.</p>
+                </li>
+                
+                <li>
+                    <strong>Navegação Segura</strong>
+                    <p>Evite clicar em links suspeitos, verifique URLs antes de inserir informações e use conexões HTTPS.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Ferramentas -->
+        <section id="ferramentas">
+            <h2><i class="fas fa-tools"></i> Ferramentas de Segurança</h2>
+            <p>Recursos tecnológicos que auxiliam na proteção digital:</p>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-shield-virus"></i>
+                    <h3>Antivírus/Antimalware</h3>
+                    <p>Software que detecta, previne e remove malware. Exemplos: Norton, McAfee, Windows Defender.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Firewalls</h3>
+                    <p>Controlam o tráfego de rede, bloqueando acessos não autorizados enquanto permitem 
+                    comunicações legítimas.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <i class="fas fa-key"></i>
+                    <h3>Gerenciadores de Senhas</h3>
+                    <p>Armazenam senhas de forma segura e ajudam a criar senhas complexas. 
+                    Exemplos: LastPass, 1Password, Bitwarden.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <i class="fas fa-user-lock"></i>
+                    <h3>VPN (Rede Privada Virtual)</h3>
+                    <p>Criptografa a conexão com a internet, protegendo dados em redes públicas 
+                    e mantendo o anonimato.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusão -->
+        <section id="conclusao">
+            <h2><i class="fas fa-flag"></i> Conclusão</h2>
+            <p>
+                A segurança digital deixou de ser uma preocupação apenas de especialistas em TI 
+                e tornou-se responsabilidade de todos os usuários de tecnologia. Em um mundo 
+                cada vez mais conectado, onde dados são o novo "petróleo", a proteção digital 
+                é essencial para a privacidade, segurança financeira e até mesmo a segurança física.
+            </p>
+            
+            <p>
+                A adoção de boas práticas de segurança não deve ser vista como um obstáculo, 
+                mas como um investimento necessário. A educação continuada sobre ameaças e 
+                medidas de proteção é fundamental, já que as técnicas dos criminosos virtuais 
+                evoluem constantemente.
+            </p>
+            
+            <div class="conclusion-box">
+                <h3><i class="fas fa-lightbulb"></i> Lembre-se:</h3>
+                <p>"A segurança digital é uma jornada, não um destino. Requer vigilância constante, 
+                educação contínua e adaptação às novas ameaças."</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 | Trabalho acadêmico sobre Segurança Digital</p>
+            <p class="footer-info">Desenvolvido para conscientização sobre proteção digital</p>
+        </div>
+    </footer>
+</body>
+</html>
