@@ -1,4 +1,4 @@
-/* Variáveis de cores */
+
 :root {
     --primary: #1a237e;
     --secondary: #283593;
@@ -11,7 +11,6 @@
     --info: #2196f3;
 }
 
-/* Reset e estilos gerais */
 * {
     margin: 0;
     padding: 0;
